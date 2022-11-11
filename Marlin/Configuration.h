@@ -1267,7 +1267,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-#define S_CURVE_ACCELERATION
+// #define S_CURVE_ACCELERATION
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -3149,7 +3149,7 @@
 //#define TFT_LVGL_UI
 
 #if ENABLED(TFT_LVGL_UI)
-  //#define MKS_WIFI_MODULE  // MKS WiFi module
+  // #define MKS_WIFI_MODULE  // MKS WiFi module
 #endif
 
 /**

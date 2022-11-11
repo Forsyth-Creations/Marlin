@@ -2078,7 +2078,7 @@
  *
  * See https://marlinfw.org/docs/features/lin_advance.html for full instructions.
  */
-//#define LIN_ADVANCE
+#define LIN_ADVANCE
 #if ENABLED(LIN_ADVANCE)
   //#define EXTRA_LIN_ADVANCE_K // Add a second linear advance constant, configurable with M900 L.
   #define LIN_ADVANCE_K 0.22    // Unit: mm compression per 1mm/s extruder speed
@@ -4175,7 +4175,7 @@
  * WiFi Support (Espressif ESP32 WiFi)
  */
 // #define WIFISUPPORT         // Marlin embedded WiFi management
-//#define ESP3D_WIFISUPPORT   // ESP3D Library WiFi management (https://github.com/luc-github/ESP3DLib)
+// #define ESP3D_WIFISUPPORT   // ESP3D Library WiFi management (https://github.com/luc-github/ESP3DLib)
 
 #if EITHER(WIFISUPPORT, ESP3D_WIFISUPPORT)
   #define WEBSUPPORT          // Start a webserver (which may include auto-discovery)
