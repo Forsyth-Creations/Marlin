@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "Tronxy/X5SA-2E"
+#define CONFIG_EXAMPLES_DIR "My Fat Cock"
 
 /**
  * Configuration.h
