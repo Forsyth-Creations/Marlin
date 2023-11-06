@@ -67,7 +67,7 @@
 // @section machine
 
 // Choose the name from boards.h that matches your setup
-#define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V3_0
+#define MOTHERBOARD BOARD_BTT_SKR_MINI_E3_V2_0
 
 
 /**
