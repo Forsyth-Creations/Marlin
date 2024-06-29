@@ -1576,9 +1576,9 @@
   #define SHOW_BOOTSCREEN                 // Show the Marlin bootscreen on startup. ** ENABLE FOR PRODUCTION **
   #if ENABLED(SHOW_BOOTSCREEN)
     #define BOOTSCREEN_TIMEOUT 1000       // (ms) Total Duration to display the boot screen(s)
-    #if EITHER(HAS_MARLINUI_U8GLIB, TFT_COLOR_UI)
-      #define BOOT_MARLIN_LOGO_SMALL      // Show a smaller Marlin logo on the Boot Screen (saving lots of flash)
-    #endif
+    // #if EITHER(HAS_MARLINUI_U8GLIB, TFT_COLOR_UI)
+    //   #define BOOT_MARLIN_LOGO_SMALL      // Show a smaller Marlin logo on the Boot Screen (saving lots of flash)
+    // #endif
     #if HAS_MARLINUI_U8GLIB
       //#define BOOT_MARLIN_LOGO_ANIMATED // Animated Marlin logo. Costs ~3260 (or ~940) bytes of flash.
     #endif
@@ -1798,7 +1798,7 @@
   #if ENABLED(SDCARD_SORT_ALPHA)
     #define SDSORT_REVERSE     false  // Default to sorting file names in reverse order.
     #define SDSORT_LIMIT       40     // Maximum number of sorted items (10-256). Costs 27 bytes each.
-    #define FOLDER_SORTING     -1     // -1=above  0=none  1=below
+    #define SDSORT_FOLDERS     -1     // -1=above  0=none  1=below
     #define SDSORT_GCODE       false  // Allow turning sorting on/off with LCD and M34 G-code.
     #define SDSORT_USES_RAM    true  // Pre-allocate a static array for faster pre-sorting.
     #define SDSORT_USES_STACK  false  // Prefer the stack for pre-sorting to give back some SRAM. (Negated by next 2 options.)
